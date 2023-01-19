@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  max-width: 25em;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .App-logo {
@@ -35,4 +38,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form {
+  display: block;
+  max-width: 25em;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2em;
+  box-shadow: 0 0 17px rgba(0, 0, 0, 0.21);
+  border-radius: 0.4em;
+  margin-top: 2.5em;
+}
+
+.description {
+  margin: 1em;
+}
+
+.note {
+  font-size: 0.8em;
+  color: #9a9ba4;
+}
+
+.title {
+  font-size: 2.5em;
+  margin: 1em 0em 0.5em;
+}
+
+.submit-icon {
+  margin-right: 0.5em;
+}
+.iconSend {
+  margin-right: 0.5em;
 }
